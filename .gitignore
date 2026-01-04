@@ -1,0 +1,72 @@
+# LaTeX编译产物
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# R相关文件
+.RData
+.Rhistory
+.Rproj.user/
+*.Rproj
+
+# HTML输出
+*.html
+!evaluation_collapsible.html
+
+# 不需要的lab文件
+lab1/
+lab1_vis/
+
+# 临时图片文件夹
+image_breast/
+image_spam/
+Wine_Test/
+Breast_Cancer_Correlation_Plots/
+Digits_Correlation_Plots/
+Olivetti Faces_Correlation_Plots/
+Synthetic_Clusters_Correlation_Plots/
+Wine_Correlation_Plots/
+German_Credit/
+Synthetic Clusters/
+
+# 中间生成的图片（保留最终版本）
+*_all_trials_visualization.png
+*_metric_evolution.png
+*_metric_evolution_across_methods.png
+*_scatter_metric_vs_accuracy.png
+combined_all_trials_plot.png
+method_comparison_*.png
